@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+    #body-card {
+        padding: 4rem;
+        grid-template-columns: repeat(auto-fit, minmax(285px, 3fr));
+    }
+}
+
+@media (max-width: 768px) {
+    #body-card {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
+    }
+}
+
+#body-card {
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    margin: 0;
+    background: #151515;
+
+}
+
+#nossos-produtos {
+    background-color: #151515;
+    padding: 2rem;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.card-body {
+    margin: 0 !important;
+    background-color: #f8f9fa;
+}
+
+.card-itens img {
+    align-self: center;
+    width: 220px;
+    height: 190px;
+}
+
+.card-itens {
+    border: 2px solid #bdbdbd;
+    border-radius: 10px;
+    margin: 0 !important;
+    padding: 12px;
+}
+
+.card-body-item {
+    padding: 1.4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.promo {
+    text-decoration: line-through;
+}
+
+
+.card-body-action {
+    text-align: center;
+    justify-content:center;
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
+
+}
+
+.card-body-action .card-link {
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+    width: 13rem;
+    border: 1px solid #757575;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 2rem;
+}
+
+.card-body-action .card-link-buy {
+    background-color: #F8FE01;
+    margin: 7px;
+    width: 13rem;
+    border: 2px solid #525252;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 2rem;
+}
+
+.card-link-buy:hover, .card-link:hover {
+    background-color:#212529;
+    color: aliceblue;
+    transition: 0.24s ease-in-out;
+}

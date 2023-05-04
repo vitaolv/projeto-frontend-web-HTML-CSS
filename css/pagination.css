@@ -1,0 +1,28 @@
+.nav-pagination {
+    background-color: #151515;
+    padding: 1rem;
+}
+
+.pagination {
+    text-align: center;
+    justify-content: center;
+}
+
+.pagination a{
+    color: #151515 !important;
+    background-color: #f8f9fa;
+}
+
+.pagination a:focus{
+    background-color: yellow;
+}
+
+.pagination a:active{
+    background-color: yellow;
+}
+
+.pagination a:hover{
+    background-color:#b4b4b4;
+    color: aliceblue;
+    transition: 0.24s ease-in-out;
+}
