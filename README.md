@@ -2,6 +2,8 @@
 
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+[O link deste projeto está disponivel, clique aqui.](https://vitaolv.github.io/projeto-frontend-web-HTML-CSS/)
+
 Este projeto simples foi desenvolvido com 6 seções em uma única página, utilizando apenas HTML, CSS e framework Bootstrap.
 
 A restrição de não poder separar o HTML principal em vários arquivos, especialmente em um desafio de desenvolvimento front-end, pode certamente apresentar desafios interessantes. Isso geralmente faz parte dos desafios propostos para testar a capacidade do desenvolvedor de organizar e estruturar o código de uma forma limpa e eficaz, mesmo em situações de limitações técnicas.
