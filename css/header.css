@@ -1,70 +1,68 @@
-
 .navbar {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    top: 0;
-    border-bottom: 1px solid #555555;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid #555555;
 }
-.container-fluid img{
-    width: 80px;
-    color: #151515;
+.container-fluid img {
+  width: 80px;
 }
 
-.container-fluid .nav-link{
-    border-radius: 20px;
-    color: #151515;
+.container-fluid .nav-link {
+  border-radius: 20px;
+  color: #151515;
 }
 
 .dropdown-item:hover {
-    background-color: #151515;
-    color: #f8f9fa;
-    transition: 0.5s ease-in-out;
+  background-color: #ccc;
+  color: #f8f9fa;
+  transition: 0.5s ease-in-out;
 }
 
-.container-fluid .nav-link:hover{
-    background-color: #151515;
-    color: #f8f9fa;
-    border-radius: 20px;
+.container-fluid .nav-link:hover {
+  background-color: #ccc;
+  color: #f8f9fa;
+  border-radius: 20px;
 }
 
 .d-flex button:hover {
-    background-color: #F8FE01;
-    color: #151515;
+  background-color: #ccc;
+  color: #151515;
 }
-
 
 #seucarrinho {
-    padding: 15px 15px 15px 15px;
-    margin-right: 1rem;
-    border: 1px solid #151515;
-    border-radius: 50%;
-    font-weight: bold;
-    margin: 10px;
-    background-color: transparent;
+  padding: 15px 15px 15px 15px;
+  margin-right: 1rem;
+  border: 1px solid #151515;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: transparent;
 }
 
-#seucarrinho svg, #logar-conta svg{
-    width: 20px;
-    height: 20px;
+#seucarrinho img,
+#logar-conta img {
+  width: 20px;
+  height: 20px;
+  color: #fff;
 }
 
 #logar-conta {
-    background-color: #F8FE01;
-    border: 1px solid #1515159f;
-    border-radius: 50%;
-    padding: 15px 15px 15px 15px;
-    margin-right: 2rem;
-    font-weight: bold;
-    margin: 10px
+  background-color: #f8fe01;
+  border: 1px solid #1515159f;
+  border-radius: 50%;
+  padding: 15px 15px 15px 15px;
+  margin-right: 2rem;
+  font-weight: bold;
 }
 
-#seucarrinho:hover, #logar-conta:hover {
-    background-color:#212529;
-    color: #f8f9fa;
-    transition: 0.24s ease-in-out;
+#seucarrinho:hover,
+#logar-conta:hover {
+  background-color: #ccc;
+  color: #f8f9fa;
+  transition: 0.24s ease-in-out;
 }
 
 .btn-outline-dark {
-    border-radius: 2rem;
+  border-radius: 2rem;
 }

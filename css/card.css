@@ -1,4 +1,4 @@
-#body-card {
+#card-view {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
@@ -16,37 +16,37 @@
   text-align: center;
 }
 
-.card-body {
+.card-view {
   margin: 0 !important;
   background-color: #f8f9fa;
   width: 240px;
 }
 
-.card-itens img {
+.card-collection img {
   align-self: center;
   width: 200px;
   object-fit: cover;
   height: 190px;
 }
 
-.card-itens {
+.card-collection {
   border: 2px solid #bdbdbd;
   border-radius: 10px;
   margin: 0 !important;
   padding: 12px;
 }
 
-.card-body-item {
+.product-info {
   padding: 1.4rem;
   align-items: center;
   text-align: center;
 }
 
-.promo {
+.discount-offer {
   text-decoration: line-through;
 }
 
-.card-body-action {
+.card-view-action {
   text-align: center;
   justify-content: center;
   position: relative;
@@ -54,7 +54,7 @@
   grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
 }
 
-.card-body-action .card-link {
+.card-view-action .card-link {
   background-color: rgb(255, 255, 255);
   margin: 7px;
   width: 13rem;
@@ -64,7 +64,7 @@
   border-radius: 2rem;
 }
 
-.card-body-action .card-link-buy {
+.card-view-action .card-link-buy {
   background-color: #f8fe01;
   margin: 7px;
   width: 13rem;
@@ -76,8 +76,7 @@
 
 .card-link-buy:hover,
 .card-link:hover {
-  background-color: #212529;
-  color: aliceblue;
+  background-color: #ccc;
   transition: 0.24s ease-in-out;
 }
 
@@ -95,30 +94,30 @@
     inline-size: 100%;
     overflow: hidden;
   }
-  .card-body-action .card-link {
+  .card-view-action .card-link {
     width: 90%;
   }
   
-  .card-body-action .card-link-buy {
+  .card-view-action .card-link-buy {
     width: 90%;
 }
 
 
 @media (max-width: 350px) {
-    .card-body-action .card-link-buy {
+    .card-view-action .card-link-buy {
       width: 90%;
   }
 
 
   @media (max-width: 350px) {
 
-    .card-body-action .card-link {
+    .card-view-action .card-link {
       width: 90%;
     }
 }
 
 @media (max-width: 350px) {
-.card-itens img {
+.card-collection img {
     align-self: center;
     width: 150px;
     object-fit: contain;

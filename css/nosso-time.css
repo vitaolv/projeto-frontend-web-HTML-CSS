@@ -1,49 +1,48 @@
 #nosso-time {
-    background-color: #f8f9fa;
-    padding: 2rem;
-    color: #151515;
-    text-align: center;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  color: #151515;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-    .card-time {
-        padding: 1rem 8rem 0 8rem;
-    }
+  .card-time {
+    padding: 1rem 8rem 0 8rem;
+  }
 
-    .card-time-flex {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .team-member-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 1400px) {
-
-    .card-time-flex {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
+  .team-member-card {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
-.card-time-flex {
-    justify-content: center;
-    text-align: center;
-    display: grid;
-    gap: 2rem;
-    margin: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.team-member-card {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+  margin: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.card-time-flex img{
-    width: 150px;
-    border: 5px solid #151515;
-    border-radius: 50%;
-    background-color: #f9fd00;
+.team-member-card img {
+  width: 150px;
+  border: 5px solid #151515;
+  border-radius: 50%;
+  background-color: #f9fd00;
 }
 
-.card__content {
-    padding: 1rem 2rem 1rem 2rem;
+.member-biography {
+  padding: 1rem 2rem 1rem 2rem;
 }
 
-.card__name {
-    font-weight: bold;
-    font-size: 20px;
+.member-name {
+  font-weight: bold;
+  font-size: 20px;
 }
