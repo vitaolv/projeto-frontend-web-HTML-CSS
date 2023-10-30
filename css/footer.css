@@ -1,31 +1,36 @@
 .content-card {
-    background-color: #f8f9fa;
-    padding-top: 2rem;
-    border-top: 4px solid #151515;
-    text-align: center;
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+  border-top: 4px solid #151515;
+  text-align: center;
+  align-items: center;
 }
 
-.card-body {
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    gap: 2rem;
-    margin: 2rem;
-    align-items: center;
-    text-align: center;
+.footer-body {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 670px) {
+  .footer-body {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
+  }
 }
 
 .logo-footer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .assinatura {
-    color: #151515;
+  color: #151515;
 }
 
-
 .assinatura:hover {
-    transition: 0.6s;
-    color: rgb(193, 196, 11);
+  transition: 0.6s;
+  color: rgb(193, 196, 11);
 }
