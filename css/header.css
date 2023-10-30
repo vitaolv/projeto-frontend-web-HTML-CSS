@@ -22,7 +22,7 @@
 
 .container-fluid .nav-link:hover {
   background-color: #ccc;
-  color: #f8f9fa;
+  color: #121212;
   border-radius: 20px;
 }
 
@@ -59,7 +59,7 @@
 #seucarrinho:hover,
 #logar-conta:hover {
   background-color: #ccc;
-  color: #f8f9fa;
+  color: #121212;
   transition: 0.24s ease-in-out;
 }
 
