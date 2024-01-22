@@ -1,4 +1,4 @@
-# Projeto de frontend web utilizando apenas HTML e CSS
+# Projeto de frontend web utilizando apenas HTML e CSS 🚀
 
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
